@@ -1,7 +1,20 @@
 # GTN_Model_VUAMT
 
-This is a project on GTN (Gurson-Tvergaard-Needleman) model using the **Abaqus VUMAT** user material subroutine.
+This project implements the GTN (Gurson-Tvergaard-Needleman) damage model using an **Abaqus VUMAT** user material subroutine.
 
-The algorithmic details are documented in the accompanying Word file. 
+The numerical implementation is based on the original GTN model and is adapted from the project:
 
-And the code is adapted on the project **👉 https://github.com/irfancn/Abaqus-VUMAT-Gurson_GTN.git.**
+- https://github.com/irfancn/Abaqus-VUMAT-Gurson_GTN.git
+
+## Documentation
+
+The algorithmic details and model derivation are documented in the accompanying Word file.
+
+## Tension Test Results
+
+- Stress evolution animation during tension: `tension.gif`
+- Force-displacement curve: `disforce.png`
+
+![Stress evolution during tension](tension.gif)
+
+![Force-displacement curve](disforce.png)
